@@ -167,12 +167,12 @@ void compute(double **a,double **b,double **c,int runs,int size){
     //function for mult/add
 
    int rn,i,k,j,l;
-    for(rn=0;rn<runs;rn++)
-    {
+    //for(rn=0;rn<runs;rn++)
+    //{
       	a = strassensMultRec(b,c,size);
 		//printMatrix(a,size);
 	        
-    }
+    //}
     if(1==2)
         printf("dummy code");
 }
