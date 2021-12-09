@@ -1,0 +1,27 @@
+ divide: 1 2 0 0 3
+ divide: 1 2 0 1 3
+ divide: 1 2 0 2 3
+ divide: 1 2 0 3 3
+ divide: 1 2 0 0 3
+ divide: 1 2 0 1 3
+ divide: 1 2 0 2 3
+ divide: 1 2 0 3 3
+ addMatrix: 1 0 : 6 = 3 + 3
+ subMatrix: 1 0 : 3 = 6 - 3
+ subMatrix: 1 0 : 0 = 3 - 3
+ subMatrix: 1 0 : 0 = 3 - 3
+ subMatrix: 1 0 : 0 = 3 - 3
+ subMatrix: 1 0 : 3 = 3 - 0
+ subMatrix: 1 0 : 0 = 3 - 3
+ subMatrix: 1 0 : 0 = 3 - 3
+ addMatrix: 1 0 : 18 = 9 + 9
+ addMatrix: 1 0 : 18 = 18 + 0
+ addMatrix: 1 0 : 18 = 9 + 9
+ addMatrix: 1 0 : 18 = 18 + 0
+ addMatrix: 1 0 : 18 = 18 + 0
+ subMatrix: 1 0 : 18 = 18 - 0
+ addMatrix: 1 0 : 18 = 18 + 0
+ compose:  ::(0+2)*2 + (0+0) = 0 :::: (0 * 1) + 0 = 0 : 18 = 18 
+ compose:  ::(0+2)*2 + (1+0) = 1 :::: (0 * 1) + 0 = 0 : 18 = 18 
+ compose:  ::(1+2)*2 + (0+0) = 2 :::: (0 * 1) + 0 = 0 : 18 = 18 
+ compose:  ::(1+2)*2 + (1+0) = 3 :::: (0 * 1) + 0 = 0 : 18 = 18 GPUassert: an illegal memory access was encountered /tmp/tmpjyj48zmv/5ba38cc9-0bbc-47df-a297-99cc86dab308.cu 291
